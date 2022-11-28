@@ -1,0 +1,100 @@
+
+    
+        body{
+            background-color: rgb(143, 144, 145);
+            counter-reset: section;
+        }
+        
+        #pseudo_code1::before{
+            content: "DO ";
+            color: rgb(20, 23, 219);
+            font-size: 30px;
+        }
+        
+        .counter_number::after {
+        counter-increment: section;
+        content: " " counter(section);
+        }
+        h1{
+            color: rgb(204, 96, 118);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 900;
+            background-color: rgb(5, 60, 42);
+            text-align: center;
+        }
+        h3{
+            color: rgb(17, 17, 104);
+            background-color: aquamarine;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        p{
+            color: rgb(47, 5, 40);
+        }
+        .github{
+            margin: 40px 10px 10px 40px;
+            border: 5px solid rgb(21, 44, 85);
+            padding: 5px 5px 5px 5px;
+            width: 25%;
+            height: 500px;
+            display: inline-block;
+        }
+        #special{
+            width: 100%;
+            height: 400px;
+            text-align: center;
+        }
+        #image{
+            height: 200px;
+            width: 150px;
+        }
+        #hover_section{
+            color: rgb(35, 35, 169);
+            background-color: beige;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            border: 4px solid rgb(63, 10, 155);
+            margin: 20px 50px 20px 20px;
+            padding: 10px 10px 10px 10px;
+            border-radius: 5px;
+        }
+        .hover_property:hover{
+            color: rgb(243, 241, 241);
+            background-color: black;
+            font-size: 50px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        #input_text{
+            text-align: center;
+           color: red;
+        }
+
+        .input_element:hover{
+            color: rgb(42, 190, 138);
+            font-size: 40px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        li:nth-child(2n){
+            color: rgb(227, 10, 151);
+        }
+        a:visited{
+            color: blue;
+        }
+        input:focus{
+            color: rgb(237, 233, 233);
+            background-color: black;
+            font-size: 20px;
+        }
+        #sumbit{
+            text-align: center;
+        }
+        .list_item::after{
+            counter-increment: section;
+            content: " "  counter(section);
+        }
+
