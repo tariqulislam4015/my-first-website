@@ -1,7 +1,7 @@
 
     
         body{
-            background-color: rgb(143, 144, 145);
+            background-color: rgb(210, 210, 218);
             counter-reset: section;
         }
         
@@ -97,4 +97,45 @@
             counter-increment: section;
             content: " "  counter(section);
         }
+        
+#footer{
+    width: 100%;
+    text-align: center;
+}
+.footer1{
+    border: 5px solid royalblue;
+    width: 300px; 
+    height: 450px;
+    margin: 20px 5px 20px 5px;
+    padding: 20px 0px 20px 50px;
 
+}
+
+
+
+.footer2{
+    border: 5px solid royalblue;
+    width: 20%; 
+    height: 100px;
+    margin: 20px 20px 20px 0px;
+    padding: 20px 0px 20px 50px;
+}
+#next_page{
+    color: rgb(239, 11, 11);
+    text-align: center;
+    font-size: 30px;
+}
+
+#next_page::before{
+    content: "🚎";
+}
+
+#comment{
+    width: 400px;
+    border: 2px solid red;
+
+}
+.pandcomment{
+    display: inline-block;
+    
+}
