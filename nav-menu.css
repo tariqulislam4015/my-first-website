@@ -1,0 +1,74 @@
+body{
+    background-color: #c7c7c0;
+}
+
+
+#nav-menu{
+width: 550px;
+height: 80px;
+background-color: #639e63;
+margin: 0 auto;
+}
+#nav-menu ul{
+
+}
+
+#nav-menu ul li{
+list-style-type: none;
+float: left;
+margin: 20px;
+}
+#nav-menu ul li a{
+text-decoration: none;
+font-size: 25px;
+color: white;
+cursor: pointer:
+}
+#nav-menu ul li a:hover{
+    text-decoration: underline;
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+}
+
+.nav-menu{
+width: 550px;
+height: 500px;
+background-color: #d7eed7;
+margin: 0 auto;
+box-sizing: border-box;
+padding: 10px;
+}
+.nav-menu h2,h3{
+    background-color: aquamarine;
+    box-sizing: border-box;
+    padding: 3px;
+    text-align: center;
+    color: rgb(3, 9, 75);
+}
+
+.nav-menu p{
+    font-size: 18px;
+}
+#gradiend-color{
+    width: 550px;
+height: 200px;
+margin: 0 auto;
+  
+}
+#gradiend-color p{
+    background-image: radial-gradient(circle, green, red);
+    height: 80px;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: aliceblue;
+    padding: 8px;
+}
+#gradiend-color h4{
+    background-image:linear-gradient(to right, red, blue);
+    height: 80px;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: aliceblue;
+    padding: 8px;
+}
