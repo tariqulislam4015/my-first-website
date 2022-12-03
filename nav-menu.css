@@ -4,7 +4,7 @@ body{
 
 
 #nav-menu{
-width: 550px;
+width: 600px;
 height: 80px;
 background-color: #639e63;
 margin: 0 auto;
@@ -28,7 +28,7 @@ cursor: pointer:
     text-decoration: underline;
     background-color: tomato;
     color: white;
-    padding: 10px;
+    padding: 5px;
 }
 
 .nav-menu{
@@ -48,7 +48,7 @@ padding: 10px;
 }
 
 .nav-menu p{
-    font-size: 18px;
+    font-size: 16px;
 }
 #gradiend-color{
     width: 550px;
@@ -64,11 +64,15 @@ margin: 0 auto;
     color: aliceblue;
     padding: 8px;
 }
-#gradiend-color h4{
+#gradiend-color h2{
     background-image:linear-gradient(to right, red, blue);
     height: 80px;
     box-sizing: border-box;
     font-size: 18px;
     color: aliceblue;
     padding: 8px;
+}
+
+div{
+    margin: 0 auto;
 }
