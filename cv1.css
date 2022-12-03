@@ -1,26 +1,27 @@
-
-/*--------------------
-Body Section Start
-----------------------*/
-
+/*-------This is Prymary section after running code design------*/
 *{
     margin: 0;
     padding: 0;
-}
+    font-family:'Solway', sans-serif;
+    }
+/*-------This is Body section design------*/
 body{
-    background-color: #EEE;
-    font-family: font-family: 'Roboto', sans-serif;;
+    background-color: #F1F2F2;
 }
+
+h1,h2,h3,h4,h5,h6{
+    color: rgb(25, 156, 156);
+}
+
+/*-------This is Body Container design------*/
 .container{
     max-width: 1000px;
-    background-color: #E4F9F5;
+    background-color: #dcf6f1;
     margin: 0 auto;
     padding: 20px;
 }
-/*--------------------
-Header Section Start
-----------------------*/
 
+/*-------This is Body Header design------*/
 header{
 
 }
@@ -28,20 +29,19 @@ header{
     width: 100px;
     height: 120px;
     border: 3px solid white;
-    border-radius: 50%;
+    border-radius: 100%;
     float: left;
 }
 .header-bio{
-    float: left;
-    padding: 30px;
-}
-h1,h2,h3,h4,h5,h6{
-    color: #11999e;
+float: left;
+padding: 30px;
+text-align: center;
 }
 .header-contact{
     float: right;
     padding: 30px;
 }
+
 .header-contact a{
     text-decoration: none;
     color: teal;
@@ -50,57 +50,70 @@ h1,h2,h3,h4,h5,h6{
 .header-contact a:hover{
     text-decoration: underline;
     color: tomato;
+    cursor:grab;
 }
+
+/*-------div clear------*/
+
 .div-clear{
     clear: both;
 }
+
 hr{
-    border: solid black 3px;
+    border: 3px solid black;
     width: 100%;
     margin: 20px auto;
     border-bottom: none;
 }
 
-/*--------------------
-Personal Section Start
-----------------------*/
+/*-------This is Body main design------*/
 
-#personal-section{
+
+
+
+/*-------This is Personal section------*/
+.personal-information{
 
 }
+
 .content{
     margin-bottom: 30px;
 }
-.left-div{
+.personal-information-left{
 width: 30%;
 float: left;
 }
-.right-div{
-    width: 70%;
-    float: left;
+
+.personal-information-right{
+width: 70%;
+float: left;
 }
 
+.personal-information-right::selection{
+    color: rgb(252, 252, 252);
+    background-color: blue;
+    }
 .common-hr{
-    border: solid black 1px;
+    border: 1px solid black;
     border-bottom: none;
     width: 100%;
     margin: 20px auto;
 }
 
-/*--------------------
-Education Section Start
-----------------------*/
+/*-------This is Education section------*/
 
+#education-temp{
 
-.education-tamp-left{
-    float: left;
-    width: 40%;
 }
-
-.education-tamp-right{
+.education-temp-left{
+float: left;
+}
+.education-temp-right{
     float: right;
-    width: 55%;
+
 }
+
+
 
 /*--------------------
 Footer Section Start
