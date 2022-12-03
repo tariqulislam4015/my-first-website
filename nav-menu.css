@@ -1,44 +1,52 @@
 body{
-    background-color: #c7c7c0;
+    background-color:rgb(217, 223, 223)
 }
-
-
 #nav-menu{
+<<<<<<< HEAD
 width: 600px;
 height: 80px;
 background-color: #639e63;
 margin: 0 auto;
 }
 #nav-menu ul{
+=======
+position: absolute;
+left: 850px;
+
+>>>>>>> f3b5b256d893cd4bb9ba44a47f6b44449349bf83
 
 }
-
 #nav-menu ul li{
-list-style-type: none;
-float: left;
-margin: 20px;
+    list-style-type:none;
+    float: left;
+    margin: 2px 5px 2px 5px;
+    
+    background-color: rgb(8, 8, 97);
+    font-size: 25px;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
 }
 #nav-menu ul li a{
-text-decoration: none;
-font-size: 25px;
-color: white;
-cursor: pointer:
+    text-decoration: none;
+    color: rgb(251, 248, 248);
+    cursor: pointer;
 }
 #nav-menu ul li a:hover{
     text-decoration: underline;
+<<<<<<< HEAD
     background-color: tomato;
     color: white;
     padding: 5px;
 }
+=======
+>>>>>>> f3b5b256d893cd4bb9ba44a47f6b44449349bf83
 
-.nav-menu{
-width: 550px;
-height: 500px;
-background-color: #d7eed7;
-margin: 0 auto;
-box-sizing: border-box;
-padding: 10px;
+color: rgb(181, 6, 6);
+font-size: 30px;
 }
+<<<<<<< HEAD
 .nav-menu h2,h3{
     background-color: aquamarine;
     box-sizing: border-box;
@@ -76,3 +84,5 @@ margin: 0 auto;
 div{
     margin: 0 auto;
 }
+=======
+>>>>>>> f3b5b256d893cd4bb9ba44a47f6b44449349bf83
